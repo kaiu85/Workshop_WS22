@@ -1,0 +1,26 @@
+name: MLKurs
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - plotly
+  - seaborn
+  - matplotlib
+  - pytorch==1.5.0
+  - torchvision
+  - tensorboardx
+  - tqdm
+  - lxml
+  - scipy
+  - pip
+  - scikit-learn
+  - jupyter
+  - openpyxl
+  - pip:
+    - gym
+    - opencv-python
+    - torchsummary==1.5.1
+    - pytorch-gradcam==0.2.1
+    - transformers
+    - pydicom
